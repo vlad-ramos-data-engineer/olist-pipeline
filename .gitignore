@@ -1,0 +1,24 @@
+# Ambiente:
+venv/
+.venv/
+env/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Dados
+*.csv
+*.tsv
+*.dat
+*.parquet
+*.sqlite
+*.db
+data/*
+!data/.gitkeep
+.ipynb_checkpoints/
+credentials.json
